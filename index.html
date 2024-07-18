@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Grand Coffee</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <!-- owl stylesheets --> 
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   <style>
+      .video-container {
+         display: flex;
+         align-items: flex-start;
+      }
+      .video-description {
+         margin-left: 20px; /* Adjust the space between video and description */
+      }
+   </style>
+</head>
+<body>
+   <!--header section start -->
+   <div class="header_section">
+      <div class="container-fluid">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </div>
+   <!--header section end -->
+   <!-- banner section start -->
+   <div class="banner_section layout_padding">
+      <div class="container">
+         <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <div class="banner_taital">
+                           <h1 class="outstanding_text">Outstanding</h1>
+                           <h1 class="coffee_text">Coffee Shop</h1>
+                           <p class="there_text">Welcome to Grand Coffee, where every cup is a journey into excellence. Situated in the heart of the city, we offer meticulously crafted brews that elevate your coffee experience. Whether you're in for a quick pick-me-up or a leisurely moment of indulgence, join us at Grand Coffee and savor the finest in every sip. </p>
+                           <div class="learnmore_bt"><a href="#">Learn More</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <div class="banner_taital">
+                           <h1 class="outstanding_text">Outstanding </h1>
+                           <h1 class="coffee_text">Coffee Shop</h1>
+                           <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, </p>
+                           <div class="learnmore_bt"><a href="#">Learn More</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <div class="banner_taital">
+                           <h1 class="outstanding_text">Outstanding </h1>
+                           <h1 class="coffee_text">Coffee Shop</h1>
+                           <p class="there_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, </p>
+                           <div class="learnmore_bt"><a href="#">Learn More</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+            </a>
+         </div>
+      </div>
+   </div>
+   <!-- banner section end -->
+   <!-- new menu section start -->
+   <div class="container my-5">
+      <div class="row">
+         <div class="col-md-6">
+            <h2 class="text-center">Our Story</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+               <video id="video1" class="embed-responsive-item" controls muted>
+                  <source src="cofee_video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+               </video>
+            </div>
+            <p class="mt-3 text-center">Order our signature dish</p>
+         </div>
+         <div class="col-md-6 ingredients-section">
+            <br><br><br>
+            <h2 class="text-center">Bacon Arugula Egg Delight</h2>
+            <ul>
+               <li>A sophisticated blend of crispy bacon, peppery arugula, ripe tomatoes, and a delicately half-boiled egg, offering a perfect balance of savory and fresh flavors in every bite. Perfect for a gourmet breakfast, brunch, or light lunch.</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!-- menu section end -->
+   <!-- second part of menu section start -->
+   <div class="container my-5">
+      <div class="row">
+         <div class="col-md-6">
+            <h2 class="text-center">Our Story</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+               <video id="video2" class="embed-responsive-item" controls muted>
+                  <source src="coffee_bar_waiter.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+               </video>
+            </div>
+            <p class="mt-3 text-center">Order our signature dish</p>
+         </div>
+         <div class="col-md-6 ingredients-section">
+            <br><br><br>
+            <h2 class="text-center">Bacon Arugula Egg Delight</h2>
+            <ul>
+               <li>A sophisticated blend of crispy bacon, peppery arugula, ripe tomatoes, and a delicately half-boiled egg, offering a perfect balance of savory and fresh flavors in every bite. Perfect for a gourmet breakfast, brunch, or light lunch.</li>
+            </ul>
+         </div>
+      </div>
+      <div class="container my-5">
+         <div class="row">
+            <div class="col-md-6">
+               <h2 class="text-center">Our Story</h2>
+               <div class="embed-responsive embed-responsive-16by9">
+                  <video id="video3" class="embed-responsive-item" controls muted>
+                     <source src="cappucino.mp4" type="video/mp4">
+                     Your browser does not support the video tag.
+                  </video>
+               </div>
+               <p class="mt-3 text-center">Order our signature dish</p>
+            </div>
+            <div class="col-md-6 ingredients-section">
+               <br><br><br>
+               <h2 class="text-center">Bacon Arugula Egg Delight</h2>
+               <ul>
+                  <li>A sophisticated blend of crispy bacon, peppery arugula, ripe tomatoes, and a delicately half-boiled egg, offering a perfect balance of savory and fresh flavors in every bite. Perfect for a gourmet breakfast, brunch, or light lunch.</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- second part of menu section end -->
+   <!-- footer section start -->
+   <div class="footer_section layout_padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4">
+               <h4>About us</h4>
+               <p class="padding_bottom">it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+            </div>
+            <div class="col-md-4">
+               <h4>Address</h4>
+               <p class="padding_bottom">Jayanagar 1st block Bangalore-11</p>
+            </div>
+            <div class="col-md-4">
+               <h4>Privacy & T&C</h4>
+               <p class="padding_bottom">What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- footer section end -->
+   <!-- jquery -->
+   <script src="js/jquery.min.js"></script>
+   <!-- popper js-->
+   <script src="js/popper.min.js"></script>
+   <!-- bootstrap js-->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- owl carousel js -->
+   <script src="js/owl.carousel.min.js"></script>
+   <!-- custom js -->
+   <script src="js/custom.js"></script>
+   <script>
+      // Play videos automatically when the page is fully loaded
+      document.addEventListener('DOMContentLoaded', function () {
+         var videos = document.getElementsByTagName('video');
+         for (var i = 0; i < videos.length; i++) {
+            videos[i].play();
+         }
+      });
+   </script>
+</body>
+</html>
